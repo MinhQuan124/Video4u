@@ -1,7 +1,7 @@
 import { Fragment } from "react"; // The fragment chi de chua
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { publicRoutes } from "./routes";
-import { DefaultLayout } from "./conponents/Layout";
+import { DefaultLayout } from "./components/Layout";
 function App() {
   return (
     <Router>
